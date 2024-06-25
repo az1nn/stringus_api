@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "stringus-api"
+version = "0.1.0"
+description = ""
+authors = ["Az1nn <alansa015@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typing-extensions = "4.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
