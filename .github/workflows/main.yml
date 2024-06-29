@@ -22,7 +22,7 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v2
         with:
-          registry-type: public
+          registries: stringus
 
       - name: Build and push to ECR
         id: build-image
